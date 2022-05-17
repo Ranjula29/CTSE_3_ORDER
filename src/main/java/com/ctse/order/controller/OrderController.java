@@ -41,7 +41,7 @@ public class OrderController {
         return orderService.updateOrder(order, id);
     }
 
-    // endpoint for delete
+    // endpoint for delete orders
     @DeleteMapping("orders/{id}")
     public boolean delete(@PathVariable String id) {
         return orderService.delete(id);
