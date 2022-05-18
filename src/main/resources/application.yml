@@ -1,7 +1,7 @@
 server:
   port: 8092
   servlet:
-    context-path: /api/v1/user-service
+    context-path: /api/v1/order-service
 spring:
   data:
     mongodb:
